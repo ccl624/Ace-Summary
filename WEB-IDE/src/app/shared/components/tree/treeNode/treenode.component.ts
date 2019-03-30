@@ -1,7 +1,10 @@
 import {Component,OnInit} from '@angular/core';
 
-@Comment({
+@Component({
     selector: 'p-treeNode',
     templateUrl: './treenode.html',
     styleUrls: ['./treenode.component.scss']
 })
+export class TreeNodeComponent implements OnInit{
+    ngOnInit
+}
